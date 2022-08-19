@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Open Sans;
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    align-items: center;
+    height: 150px;
+}
+
+.list{
+display: flex;
+list-style: none;
+gap: 20px;
+overflow-x: auto;
+}
+.navbar button{
+    padding: 10px 30px;
+    color: blueviolet;
+    font-weight: bold;
+    background-color: white;
+    border: 2px solid blueviolet;
+    border-radius: 6px;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+}
+.reverse{
+    flex-direction: row-reverse;
+}
+
+.hero .content{
+    gap: 30px;
+}
+
+.hero .image{
+    /* width: 50%; */
+}
+.hero .image img{
+    width: 700px;
+    display: block;
+
+
+}
+.hero .content h1{
+    font-size: 3rem;
+    padding-bottom: 1rem;
+}
+.hero .content p{
+    padding-bottom: 2rem;
+    line-height: 1.5;
+}
+.hero .content button{
+    background: linear-gradient(to right bottom, #11c0f8, #0566ea);
+    color: #FFFFFF;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 500;
+    box-shadow: 0px 0px 20px 2px rgb(5 102 234 / 20%);
+    cursor: pointer;
+    padding-bottom: 1rem;
+}
+.services{
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+    padding: 20px 20px;
+}
+.services-cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+
+}
+.card-item{
+    padding: 20px;
+    width: 350px;
+    height: 300px;
+}
+
+.card-item img{
+    padding-bottom: 10px;
+}
+.card-item h3{
+    padding-bottom: 10px;
+}
+.card-item p{
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .hero{
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+    .services{
+        flex-direction: column;
+    }
+    .hero .image img{
+        width: 400px;
+        display: block;}
+    .hero .content h1{
+        font-size: 2rem;
+    }
+}
+
+
