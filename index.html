@@ -6,6 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <div class="container">
@@ -22,11 +29,16 @@
           <li>About Us</li>
         </ul>
         <button>Register Now</button>
+        <i class="fa-solid fa-bars hidden"></i>
       </nav>
 
       <div class="hero">
         <div class="content">
-          <h1>Great Website Start with Unlimited Hosting</h1>
+          <h1>
+            Great Website Start <br />
+            with Unlimited <br />
+            Hosting
+          </h1>
           <p>
             We provide the best offer of unlimited web hosting. The most
             complete features, affordable prices, and 24/7 technical support at
@@ -34,9 +46,7 @@
           </p>
           <button class="hero-button">Choose Package</button>
         </div>
-        <div class="image">
-          <img src="./assets/technical support illustration-01.svg"" alt="" />
-        </div>
+        <div class="image"><img src="./assets/server.svg"" alt="" /></div>
       </div>
       <div class="hero reverse">
         <div class="content">
@@ -49,7 +59,7 @@
           <button class="hero-button">Read More</button>
         </div>
         <div class="image">
-          <img src="./assets/technical support illustration-01.svg"" alt="" />
+          <img src="./assets/testing.svg" alt="" />
         </div>
       </div>
       <div class="hero">
@@ -92,7 +102,7 @@
           </p>
         </div>
         <div class="card-item">
-          <img src="./assets/COCO/Bold/Cloud.png" alt="" />
+          <img src="./assets/services icon/wordpress-hosting.svg" alt="" />
           <h3>Wordpress Hosting</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit.
@@ -100,7 +110,7 @@
           </p>
         </div>
         <div class="card-item">
-          <img src="./assets/COCO/Bold/Cloud.png" alt="" />
+          <img src="./assets/services icon/vps.svg" alt="" />
           <h3>Fastest VPS</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit.
@@ -108,7 +118,7 @@
           </p>
         </div>
         <div class="card-item">
-          <img src="./assets/COCO/Bold/Cloud.png" alt="" />
+          <img src="./assets/services icon/Domain.svg" alt="" />
           <h3>Domain</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit.
@@ -116,7 +126,7 @@
           </p>
         </div>
         <div class="card-item">
-          <img src="./assets/COCO/Bold/Cloud.png" alt="" />
+          <img src="./assets/services icon/builder.svg" alt="" />
           <h3>Website Builder</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit.
@@ -125,13 +135,194 @@
         </div>
       </div>
     </div>
-    <!-- <section aria-label="Pricing cards">
-      <div class="pricing-cards">
-        <div class="card-headline">
-          <h3>Starter Pack</h3>
-          <p>Suitable for beginners</p>
+    <!-- Pricing Section -->
+    <section class="pricing-section">
+      <h1>Flexible & Transparent Pricing</h1>
+      <div class="pricing-card-container">
+        <!-- card-1 -->
+        <div class="pricing-card">
+          <div>
+            <h1>Starter Pack</h1>
+            <p>Suitable for beginners</p>
+          </div>
+          <ul>
+            <li><i class="fa-solid fa-circle-check"></i> <span>Up To 15,000 visitors/Month</span></p></li>  
+            <li><i class="fa-solid fa-circle-check"></i> <span>Disk Space 500 MB</span></p></li>
+            <li><i class="fa-solid fa-circle-check"></i> <span>Unlimited Bandwidth</span></p></li>
+            <li><i class="fa-solid fa-circle-check"></i> <span>Unlimited Database</span></p></li>
+          </ul>
+          <h1 class="price">$29.99<span>/month</span></h1>
+          <p>Cancel Anytime</p>
+          <button>Choose Plan</button>
+        </div>
+        <!-- card-2 -->
+        <div class="pricing-card">
+          <div class="heading-active">
+            <h1>Popular Packages</h1>
+            <p>Suitable for company, orginazation</p>
+          </div>
+          <ul>
+            <li><i class="fa-solid fa-circle-check"></i> <span>
+              Up To 135,000 visitors/Month</span></p></li>  
+            <li><i class="fa-solid fa-circle-check"></i> <span>Unlimited Disk Space</span></p></li>
+            <li><i class="fa-solid fa-circle-check"></i> <span>Unlimited Bandwidth</span></p></li>
+            <li><i class="fa-solid fa-circle-check"></i> <span>Unlimited POP3 Email</span></p></li>
+            <li><i class="fa-solid fa-circle-check"></i> <span>Unlimited Database</span></p></li>
+          </ul>
+          <h1 class="price">$59.99<span>/month</span></h1>
+          <p>Cancel Anytime</p>
+          <button class="button-active">Choose Plan</button>
+        </div>
+        <!-- card-3 -->
+        <div class="pricing-card">
+          <div>
+            <h1>Buisness package</h1>
+            <p>Suitable for buisness websites</p>
+          </div>
+          <ul>
+            <li><i class="fa-solid fa-circle-check"></i> <span>
+              Up To 180,000 visitors/Month/span></p></li>  
+            <li><i class="fa-solid fa-circle-check"></i> <span>Disk Space 500 MB</span></p></li>
+            <li><i class="fa-solid fa-circle-check"></i> <span>Unlimited Bandwidth</span></p></li>
+            <li><i class="fa-solid fa-circle-check"></i> <span>Unlimited Database</span></p></li>
+          </ul>
+          <h1 class="price">$99.99<span>/month</span></h1>
+          <p>Cancel Anytime</p>
+          <button>Choose Plan</button>
         </div>
       </div>
-    </section> -->
+    </section>
+
+    <!-- Customer review section -->
+    <section class="review-section">
+      <h1>Our Customer Love Us</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus tempora ducimus explicabo optio quae.
+        <br>Facere quam perspiciatis maxime reprehenderit rem?</p>
+        
+      <div class="review-container">
+        <div class="review-card">
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati deleniti repudiandae facere, iusto quo voluptas labore commodi ducimus delectus ullam id cumque impedit odit eius amet dolor autem nam sunt repellat illum repellendus. Ut laborum, ipsum ab rerum velit nulla!</p>
+          <div class="card-info">
+            <div class="circle">
+              <img src="./assets/profile-holder.png" alt="">
+            </div>
+            <div><h5>Michael Andrew</h5>
+            <p>CEO apple inc</p></div>
+          </div>
+        </div>
+        <div class="review-card">
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati deleniti repudiandae facere, iusto quo voluptas labore commodi ducimus delectus ullam id cumque impedit odit eius amet dolor autem nam sunt repellat illum repellendus. Ut laborum, ipsum ab rerum velit nulla!</p>
+          <div class="card-info">
+            <div class="circle">
+              <img src="./assets/profile-holder.png" alt="">
+            </div>
+            <div><h5>Michael Andrew</h5>
+            <p>CEO apple inc</p></div>
+          </div>
+        </div>
+        <div class="review-card">
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati deleniti repudiandae facere, iusto quo voluptas labore commodi ducimus delectus ullam id cumque impedit odit eius amet dolor autem nam sunt repellat illum repellendus. Ut laborum, ipsum ab rerum velit nulla!</p>
+          <div class="card-info">
+            <div class="circle">
+              <img src="./assets/profile-holder.png" alt="">
+            </div>
+            <div><h5>Michael Andrew</h5>
+            <p>CEO apple inc</p></div>
+          </div>
+        </div>
+        <div class="review-card">
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati deleniti repudiandae facere, iusto quo voluptas labore commodi ducimus delectus ullam id cumque impedit odit eius amet dolor autem nam sunt repellat illum repellendus. Ut laborum, ipsum ab rerum velit nulla!</p>
+          <div class="card-info">
+            <div class="circle">
+              <img src="./assets/profile-holder.png" alt="">
+            </div>
+            <div><h5>Michael Andrew</h5>
+            <p>CEO apple inc</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <section class="footer-1">
+      <div class="wrapper-1">
+        <div>
+          <h1>
+            Quit Worrying about <br>
+Oce-Hosting services
+          </h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+repudiandae tempora facilis
+          </p>
+        </div>
+        <div>
+        <button class="footer-btn">Register</button>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="footer-2">
+      <div class="wrapper">
+        <div class="logo-container">
+            <div class="logo">
+                <img src="./assets/Logo.png" alt="logo">
+                <p>
+                    Lorem ipsum dolor, sit amet <br>
+                    consectetur adipisicing elit. Officia,
+                    officiis?
+                    <br>
+                    Lorem ipsum dolor sit.
+                </p>
+            </div>
+        </div>
+        <div class="footer-navbar">
+            <div>
+                <h5>Menu</h5>
+                <ul>
+                    <li>Home</li>
+                    <li>Covid9</li>
+                    <li>Vaccine info</li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+            <div>
+                <h5>Links</h5>
+                <ul>
+                    <li>Parteners</li>
+                    <li>Careers</li>
+                    <li>Press</li>
+                    <li>Community</li>
+                </ul>
+            </div>
+            <div>
+                <h5>Overview</h5>
+                <ul>
+                    <li>Terms &amp; Conditions</li>
+                    <li>Privacy Policy</li>
+                    <li>FAQ</li>
+                </ul>
+            </div>
+            <div>
+                <h5>Social Media</h5>
+                <ul>
+                    <li>
+                        <img width="30px" src="./assets/fb.svg" alt="fb-icon">
+                    </li>
+                    <li>
+                        <img width="30px" src="./assets/ig.svg" alt="ig-icon">
+                    </li>
+                    <li>
+                        <img width="30px" src="./assets/youtube.svg" alt="yt">
+                    </li>
+                    <li>
+                        <img width="30px" src="./assets/linked-in.svg" alt="linked-in">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    </section>
   </body>
 </html>
